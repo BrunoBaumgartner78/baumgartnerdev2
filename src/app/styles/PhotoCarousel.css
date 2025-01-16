@@ -1,0 +1,70 @@
+/* Karussell-Container */
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 300px; /* Höhe des Karussells */
+}
+
+/* Track, der die Items enthält */
+.carousel-track {
+  display: flex;
+  width: calc(200px * 10); /* Breite = Anzahl der Items × Breite eines Items */
+  animation: scroll 50s linear infinite; /* Endlosanimation */
+}
+
+/* Karussell-Items */
+.carousel-item {
+  width: 200px; /* Breite jedes Items */
+  height: 300px; /* Gleiche Höhe wie der Container */
+  background-size: cover; /* Bilder vollflächig einpassen */
+  background-position: center;
+  flex-shrink: 0;
+}
+
+
+
+
+
+/* Verschiedene Hintergrundbilder */
+.carousel-item.item-1 {
+  background-image: url('/assets/pen.jpg');
+  background-size: cover; /* Bilder vollflächig einpassen */
+  background-position: center;
+}
+
+.carousel-item.item-2 {
+  background-image: url('/assets/laptop.jpg');
+  background-size: cover; /* Bilder vollflächig einpassen */
+  background-position: center;
+}
+
+.carousel-item.item-3 {
+  background-image: url('/assets/computerDesk.jpg');
+  background-size: cover; /* Bilder vollflächig einpassen */
+  background-position: center;
+}
+
+.carousel-item.item-4 {
+  background-image: url('/assets/computer.jpg');
+  background-size: cover; /* Bilder vollflächig einpassen */
+  background-position: center;
+}
+
+.carousel-item.item-5 {
+  background-image: url('/assets/apple.jpg');
+  background-size: cover; /* Bilder vollflächig einpassen */
+  background-position: center;
+
+}
+
+
+/* Animation für nahtlosen Endlosloop */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-450px); /* Bewegung um die Breite der 5 Elemente */
+  }
+}

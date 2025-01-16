@@ -1,0 +1,140 @@
+/* Slider Container */
+.slider-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; /* Abgerundete Ecken */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Schatteneffekt */
+  }
+  
+  /* Swiper Container */
+  .mySwiper {
+    width: 100%;
+    height: 500px; /* Höhe des Sliders */
+  }
+  .slider-container {
+    width: 100%;
+    height: 400px;
+  }
+  
+  
+  /* Swiper Slide */
+  .slide1, .slide2, .slide3 {
+    display: flex;
+    font-family: 'Orbitron', sans-serif; /* Hauptschriftart */
+    justify-content: center;
+    align-items: center;
+    background-size: cover; /* Hintergrundbild anpassen */
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    color: white; /* Textfarbe */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text-Schatten */
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .slide1{
+    background-image: url('/assets/laptop.jpg');
+  }
+
+  .slide2{
+    background-image: url('/assets/computer.jpg');
+  }
+
+  .slide3{
+    background-image: url('/assets/pen.jpg');
+  }
+  
+  /* Navigation Buttons */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: white; /* Farbe der Navigation */
+    background-color: rgba(0, 0, 0, 0.5); /* Transparenter Hintergrund */
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Dunklerer Hintergrund bei Hover */
+  }
+  
+  /* Pagination Dots */
+  .swiper-pagination-bullet {
+    background-color: rgba(255, 255, 255, 0.5); /* Standardfarbe */
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: rgba(255, 255, 255, 1); /* Aktive Farbe */
+    width: 15px;
+    height: 15px;
+    transform: scale(1.2); /* Größerer Punkt bei aktiver Seite */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+
+  .scroll-link {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.2); /* Halbtransparenter Hintergrund */
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    backdrop-filter: blur(8px); /* Blur-Effekt */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    left: 10px;
+    margin: 0 auto;
+  }
+  
+  .scroll-link:hover {
+    transform: scale(1.1); /* Zoom-Effekt beim Hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Verstärkter Schatten */
+ 
+  }
+  
+  @media (max-width: 768px) {
+    .mySwiper {
+      height: 100%; /* Reduzierte Höhe für kleinere Geräte */
+    }
+    .slide1, .slide2, .slide3 {
+      font-size: 1.5rem; /* Kleinere Schriftgröße */
+    }
+  }
+    
+  @keyframes fall {
+    0% {
+      transform: translateY(-100%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh);
+      opacity: 0;
+    }
+  }
+  
+  .emoji {
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 15px);
+    font-size: 2rem;
+    animation: fall 3s linear infinite;
+    animation-delay: calc(var(--i) * 0.5s);
+  }
+  
+  .emoji-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  

@@ -1,0 +1,19 @@
+/* Logo.css */
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .logo {
+    width: 150px; /* Größe anpassen */
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .logo:hover {
+    transform: rotate(360deg); /* Dreht das Logo bei Hover */
+  }
+  

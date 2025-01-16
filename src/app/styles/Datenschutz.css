@@ -1,0 +1,94 @@
+/* Datenschutz.css */
+
+/* Stil für die gesamte Seite */
+.datenschutz-page {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  /* Hauptüberschrift */
+  .datenschutz-page h1 {
+    font-size: 2.5em;
+    color: #1a73e8;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Unterüberschriften */
+  .datenschutz-page h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  /* Fließtext */
+  .datenschutz-page p {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+  
+  /* Listen */
+  .datenschutz-page ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .datenschutz-page ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Links */
+  .datenschutz-page a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .datenschutz-page a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Abschnitte für den Datenschutz */
+  .datenschutz-page .section {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+  
+  /* Abstand für den gesamten Textbereich */
+  .datenschutz-page .section p {
+    margin-bottom: 10px;
+  }
+  
+  /* Stile für die Kontaktinformationen am Ende */
+  .datenschutz-page .contact-info {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 40px;
+  }
+  
+  .datenschutz-page .contact-info p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  /* Kleinere Geräte / Mobile Ansicht */
+  @media (max-width: 768px) {
+    .datenschutz-page h1 {
+      font-size: 2em;
+    }
+  
+    .datenschutz-page h2 {
+      font-size: 1.5em;
+    }
+  
+    .datenschutz-page p,
+    .datenschutz-page ul li {
+      font-size: 0.9em;
+    }
+  }
+  

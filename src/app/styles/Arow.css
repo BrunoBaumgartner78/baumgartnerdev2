@@ -1,0 +1,27 @@
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--bg-color);
+    box-shadow: 
+      6px 6px 10px var(--shadow-dark), 
+      -6px -6px 10px var(--shadow-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1000;
+    transition: all 0.3s ease;
+  }
+  
+  .scroll-to-top:hover {
+    box-shadow: 
+      inset 6px 6px 10px var(--shadow-dark), 
+      inset -6px -6px 10px var(--shadow-light);
+  }
