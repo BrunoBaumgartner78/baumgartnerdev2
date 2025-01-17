@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
   const metadata = {
     title: "Baumgartner Development",
     description: "Webentwicklung und digitale Lösungen von Baumgartner Development.",
-    keywords: "Webentwicklung, digitale Lösungen, Baumgartner, Webdesign, JavaScript, Next.js, React.js",
+    keywords: "Webentwicklung, digitale Lösungen, Baumgartner, Webdesign, JavaScript, Next.js, React.js, Bern, Region",
     author: "Bruno Baumgartner",
     image: "https://www.myiq.ch/assets/pen.png",
     url: "https://www.myiq.ch",
