@@ -1,12 +1,19 @@
-// src/app/layout.js
-"use client"; // Markiere diese Datei als Client-Komponente
+"use client";
 
 import { useEffect } from "react";
 import Head from "next/head";
-import { metadata } from "./metadata"; // Importiere das metadata-Objekt
-import GoogleAnalytics from "./components/GoogleAnalytics"; // Importiere die GoogleAnalytics-Komponente
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 export default function RootLayout({ children }) {
+  const metadata = {
+    title: "Baumgartner Development",
+    description: "Webentwicklung und digitale Lösungen von Baumgartner Development.",
+    keywords: "Webentwicklung, digitale Lösungen, Baumgartner, Webdesign, JavaScript, Next.js, React.js",
+    author: "Bruno Baumgartner",
+    image: "https://www.myiq.ch/assets/pen.png",
+    url: "https://www.myiq.ch",
+  };
+
   return (
     <html lang="de">
       <Head>
@@ -57,7 +64,7 @@ export default function RootLayout({ children }) {
         </script>
       </Head>
       <body>
-        <GoogleAnalytics /> {/* Füge Google Analytics hier ein */}
+        <GoogleAnalytics />
         {children}
       </body>
     </html>
