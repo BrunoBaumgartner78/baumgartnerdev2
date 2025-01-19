@@ -38,15 +38,15 @@
   }
 
   .slide1{
-    background-image: url('/assets/laptop.jpg');
+    background-image: url('/assets/laptop.webP');
   }
 
   .slide2{
-    background-image: url('/assets/computer.jpg');
+    background-image: url('/assets/computer.webP');
   }
 
   .slide3{
-    background-image: url('/assets/pen.jpg');
+    background-image: url('/assets/pen.webP');
   }
   
   /* Navigation Buttons */

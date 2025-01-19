@@ -44,14 +44,14 @@ export default function Home() {
 <div className="flex2">
   <div className="about2"></div>
   <div>
-<h3>Was uns auszeichnet</h3>
+<h2>Was uns auszeichnet</h2>
 <p>Individuelle Lösungen: Wir hören zu und entwickeln maßgeschneiderte Websites, die genau zu Ihrem Unternehmen passen.</p>
 <p>Modernes Design: Wir setzen auf ansprechende und zeitgemäße Designs, die Ihre Marke im besten Licht präsentieren.</p>
 <p>Benutzerfreundlichkeit: Unsere Websites bieten eine intuitive Navigation und sind sowohl für Desktop- als auch für mobile Geräte optimiert.</p>
 <p>SEO-Optimierung: Jede Website wird so gestaltet, dass sie in Suchmaschinen wie Google besser gefunden wird – speziell für die Region Bern.</p>
 </div>
 </div>
-<h3>Unser Fokus auf Bern</h3>
+<h2>Unser Fokus auf Bern</h2>
 <p>Als lokales Unternehmen verstehen wir die Bedürfnisse und Besonderheiten der Unternehmen in Bern und Umgebung. Ob Sie eine kleine Firma, ein Start-up oder ein etabliertes Unternehmen sind – wir kennen den regionalen Markt und helfen Ihnen, sich erfolgreich zu positionieren.</p>
 <h3>Unsere Leisungen</h3>
 
@@ -94,9 +94,9 @@ Integration moderner Tools und Funktionen
         <p>
 Wir bieten Ihnen maßgeschneiderte Webdesign-Lösungen in der Region Bern, die Ihre Marke stärken und Ihre Ziele verwirklichen. Als Experten für modernes und funktionales Webdesign wissen wir, wie wichtig ein professioneller Internetauftritt für den Erfolg Ihres Unternehmens ist. </p>
 
-<h3>
+<h2>
 Unsere Leistungen im Bereich Webdesign für Bern und Umgebung
-</h3>
+</h2>
 <p>
 1. Individuelles Webdesign
 </p>
@@ -131,9 +131,9 @@ Auch nach dem Launch Ihrer Website stehen wir Ihnen zur Seite. Wir kümmern uns 
 <div className="flex">
 <div className="services1"></div>
   <div>
-<h3>
+<h2>
 Vorteile unserer Webdesign-Services in Bern
-</h3>
+</h2>
 <p>
 Lokale Expertise: Wir verstehen die spezifischen Anforderungen und Zielgruppen in der Region Bern.
 </p>
@@ -174,7 +174,7 @@ Langfristiger Support und Beratung
 <div className="services"></div>
 </div>
 <div>
-<h3>Bereit für eine neue Website?</h3>
+<h2>Bereit für eine neue Website?</h2>
 </div> <div className="gradient-line"></div> {/* Querlinie mit Gradient */}
 <p>
 Lassen Sie uns gemeinsam Ihre digitale Präsenz in der Region Bern gestalten. Kontaktieren Sie uns noch heute, um mehr über unsere Webdesign-Services zu erfahren und ein unverbindliches Angebot zu erhalten.
@@ -197,45 +197,45 @@ Um Ihnen als Unternehmen in der Region Bern eine moderne, benutzerfreundliche un
 Unsere Technologien im Webdesign
 </h3>
 
-<h4>
+<h3>
 1. HTML5 & CSS3
-</h4>
+</h3>
 <p>
 Die Grundlage für jedes Webdesign-Projekt: Mit HTML5 erstellen wir die Struktur Ihrer Website, während CSS3 für modernes Styling sorgt. Das Ergebnis ist eine Website, die visuell überzeugt und technisch auf dem neuesten Stand ist.
 </p>
-<h4>
+<h3>
 2. JavaScript und Frameworks
-</h4>
+</h3>
 <p>
 Für dynamische und interaktive Benutzererfahrungen setzen wir JavaScript sowie Frameworks wie React.js, Vue.js oder Next.js ein. Diese Technologien machen Ihre Website leistungsstark und flexibel.
 </p>
-<h4>
+<h3>
 3. Content-Management-Systeme (CMS)
-</h4>
+</h3>
 <p>
 Wir arbeiten mit führenden CMS-Plattformen wie WordPress, Sanity, oder Strapi, um Ihnen eine einfache Verwaltung Ihrer Inhalte zu ermöglichen. Besonders für Unternehmen in der Region Bern sind diese Systeme ideal, da sie eine schnelle und effektive Pflege der Website erlauben.
 </p>
-<h4>
+<h3>
 4. Responsive Design
-</h4>
+</h3>
 <p>
 Ihre Website wird auf allen Geräten optimal angezeigt – vom Desktop bis zum Smartphone. Wir entwickeln Websites, die dank responsive Design die beste Benutzererfahrung auf jedem Bildschirm bieten.
 </p>
-<h4>
+<h3>
 5. SEO-Tools und Optimierungen
-</h4>
+</h3>
 <p>
 Damit Ihre Website in Suchmaschinen gefunden wird, setzen wir auf Technologien wie Google Lighthouse, Schema Markup und modernste SEO-Strategien. Besonders in der Region Bern sorgen wir dafür, dass Sie regional sichtbar bleiben.
 </p>
-<h4>
+<h3>
 6. Datenbanken und Back-End-Technologien
-</h4>
+</h3>
 <p>
 Für datenintensive Anwendungen verwenden wir MongoDB, MySQL und andere leistungsstarke Datenbanksysteme. Unsere Back-End-Entwicklung basiert auf robusten Frameworks wie Node.js oder Django, um Ihre Website sicher und zuverlässig zu machen.
 </p>
-<h4>
+<h3>
 7. Cloud-Hosting und Skalierbarkeit
-</h4>
+</h3>
 
 <p>
 Wir hosten Ihre Website auf modernen Plattformen wie AWS, Google Cloud oder Vercel. Dadurch bleibt Ihre Website auch bei hohem Traffic stabil und schnell.
@@ -258,9 +258,9 @@ Zukunftssicherheit: Durch den Einsatz aktueller Technologien bleibt Ihre Website
 Flexibilität: Ob kleine Anpassungen oder große Erweiterungen – unsere Technologien ermöglichen eine einfache Skalierbarkeit.
 </li>
 </ul>
-<h4>
+<h2>
 Ihre Vorteile mit uns als Partner in der Region Bern
-</h4>
+</h2>
 <div className="gradient-line"></div> {/* Querlinie mit Gradient */}
 <p>
 Wir sind stolz darauf, Unternehmen in der Region Bern mit fortschrittlichem Webdesign und modernsten Technologien zu unterstützen. Mit uns erhalten Sie nicht nur eine Website, sondern eine digitale Lösung, die perfekt auf Ihre Bedürfnisse zugeschnitten ist.

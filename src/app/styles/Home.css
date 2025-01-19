@@ -1,6 +1,6 @@
 
 .about{
-    background-image: url('/assets/laptop.jpg');
+    background-image: url('/assets/laptop.webP');
     width: 100%;
     height: 800px;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@
     border-radius: 0 25px 25px 0;
   }
   .about2{
-    background-image: url('/assets/pen.jpg');
+    background-image: url('/assets/pen.webP');
     width: 100%;
     height: 800px;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
     border-radius: 25px 0 0 25px;
   }
   .about3{
-    background-image: url('/assets/mug.jpg');
+    background-image: url('/assets/mug.webP');
     width: 100%;
     height: 800px;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@
   }
   
   .services{
-    background-image: url('/assets/apple.jpg');
+    background-image: url('/assets/apple.webP');
     width: 100%;
     height: 800px;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@
     border-radius: 0 25px 25px 0;
   }
   .services1{
-    background-image: url('/assets/computerDesk.jpg');
+    background-image: url('/assets/computerDesk.webP');
     width: 100%;
     height: 800px;
     background-repeat: no-repeat;
@@ -42,7 +42,7 @@
   }
   
   .tech{
-    background-image: url('/assets/computerDesk.jpg');
+    background-image: url('/assets/computerDesk.webP');
     width: 100%;
     height: 800px;
     background-repeat: no-repeat;

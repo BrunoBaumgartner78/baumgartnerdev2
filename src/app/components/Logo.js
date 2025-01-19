@@ -6,7 +6,7 @@ const Logo = () => {
   return (
     <div className="logo-container">
       <img 
-        src="/assets/logo.png" 
+        src="/assets/logo.webP" 
         alt="Logo" 
         className="logo" 
       />

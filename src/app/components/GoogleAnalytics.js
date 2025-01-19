@@ -1,4 +1,5 @@
 // src/app/components/GoogleAnalytics.js
+'use client';
 import { useEffect } from "react";
 
 const GoogleAnalytics = () => {

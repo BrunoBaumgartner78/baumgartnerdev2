@@ -28,31 +28,31 @@
 
 /* Verschiedene Hintergrundbilder */
 .carousel-item.item-1 {
-  background-image: url('/assets/pen.jpg');
+  background-image: url('/assets/pen.webP');
   background-size: cover; /* Bilder vollflächig einpassen */
   background-position: center;
 }
 
 .carousel-item.item-2 {
-  background-image: url('/assets/laptop.jpg');
+  background-image: url('/assets/laptop.webP');
   background-size: cover; /* Bilder vollflächig einpassen */
   background-position: center;
 }
 
 .carousel-item.item-3 {
-  background-image: url('/assets/computerDesk.jpg');
+  background-image: url('/assets/computerDesk.webP');
   background-size: cover; /* Bilder vollflächig einpassen */
   background-position: center;
 }
 
 .carousel-item.item-4 {
-  background-image: url('/assets/computer.jpg');
+  background-image: url('/assets/computer.webP');
   background-size: cover; /* Bilder vollflächig einpassen */
   background-position: center;
 }
 
 .carousel-item.item-5 {
-  background-image: url('/assets/apple.jpg');
+  background-image: url('/assets/apple.webP');
   background-size: cover; /* Bilder vollflächig einpassen */
   background-position: center;
 
