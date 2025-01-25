@@ -1,12 +1,31 @@
-export default {
-  reactStrictMode: true,
+
+
+// next.config.js
+module.exports = {
   async redirects() {
     return [
       {
-        source: '/old-url',
-        destination: '/new-url',
-        permanent: true, // true bedeutet ein 301-Redirect
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'myiq.ch',
+          },
+        ],
+        destination: 'https://www.myiq.ch/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'www.myiq.ch',
+          },
+        ],
+        destination: 'https://www.myiq.ch/:path*',
+        permanent: true,
       },
     ];
   },
-}
+};

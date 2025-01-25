@@ -66,6 +66,10 @@ export default function RootLayout({ children }) {
         
         {/* Page Title */}
         <title>{metadata.title}</title>
+
+        {/*Canonial Tag*/}
+        <link rel="canonical" href="https://www.myiq.ch" />
+
       </Head>
       <body>
         <GoogleAnalytics />
