@@ -89,7 +89,7 @@ export default function Menu() {
                 </ul>
               )}
             </li>
-            <li><Link href="/contact">Kontakt</Link></li>
+            <li><Link href="/kontakt">Kontakt</Link></li>
           </ul>
         </nav>
 

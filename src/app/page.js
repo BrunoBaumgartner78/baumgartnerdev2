@@ -283,7 +283,7 @@ Baumgartner Development – Webdesign in Bern mit modernsten Technologien.</p>
       
       
  
-      <section id="contact" style={{ height: 'fit-content' }}>
+      <section id="contactHome" style={{ height: 'fit-content' }}>
       <PhotoCarousel/>
   <h1>Contact</h1>
   <p>Kontaktiere uns hier:</p>
@@ -336,7 +336,7 @@ Baumgartner Development – Webdesign in Bern mit modernsten Technologien.</p>
       <li><Link href="/blog">Blog</Link></li>
       <li><Link href="/about-us">About us</Link></li>
       <li><Link href="/career">Karriere</Link></li>
-      <li><Link href="/contact">Kontakt</Link></li>
+      <li><Link href="/kontakt">Kontakt</Link></li>
       </ul>
     </ul>
   </div>

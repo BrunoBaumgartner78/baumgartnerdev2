@@ -22,7 +22,7 @@ export default function Slider() {
        <SwiperSlide>
        <div className="slide3"  >
     
-   <a href="#contact" className="scroll-link">Contact</a>
+   <a href="#contactHome" className="scroll-link">Contact</a>
  
  </div>
  

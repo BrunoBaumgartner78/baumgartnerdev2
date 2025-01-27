@@ -74,7 +74,7 @@ const Contact = () => {
       <li><Link href="/blog">Blog</Link></li>
       <li><Link href="/about-us">About us</Link></li>
       <li><Link href="/career">Karriere</Link></li>
-      <li><Link href="/contact">Kontakt</Link></li>
+      <li><Link href="/kontakt">Kontakt</Link></li>
       </ul>
     </ul>
   </div>
