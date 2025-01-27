@@ -1,25 +1,20 @@
+"use client"; // Dies markiert die Datei als Client-Komponente
+
 import React, { useState, useEffect } from "react";
 import { FaArrowUp } from "react-icons/fa";
 import '../styles/Arow.css';
 
-export default function ScrollToTopButton() {
+const Arow = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Sichtbarkeit des Buttons steuern
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 300) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
-    };
+  const toggleVisibility = () => {
+    if (window.scrollY > 300) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  // Scroll-to-Top Funktion
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -27,11 +22,22 @@ export default function ScrollToTopButton() {
     });
   };
 
+  useEffect(() => {
+    window.addEventListener("scroll", toggleVisibility);
+    return () => {
+      window.removeEventListener("scroll", toggleVisibility);
+    };
+  }, []);
+
   return (
-    isVisible && (
-      <button className="scroll-to-top" onClick={scrollToTop}>
-        <FaArrowUp size={24} />
-      </button>
-    )
+    <div className="scroll-to-top">
+      {isVisible && (
+        <div onClick={scrollToTop} className="arrow-container">
+          <FaArrowUp className="arrow-icon" />
+        </div>
+      )}
+    </div>
   );
-}
+};
+
+export default Arow;

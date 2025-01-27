@@ -97,7 +97,14 @@
     width: 100%;
     margin: 10px auto;
   }
+
+  .flexUl{
+    display: flex;
+  }
   
+  .liste, li, a{
+    color:#feb47b;
+  }
   /* Responsives Design */
   @media (max-width: 768px) {
     #contact h1 {
@@ -133,5 +140,8 @@
   }
   .about, .about2, .about3, .services, .services1, .tech{
     border-radius: 25px 25px 25px 25px;
+  }
+  .flexUl{
+    flex-direction: column;
   }
   }

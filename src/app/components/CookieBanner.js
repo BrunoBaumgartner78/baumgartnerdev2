@@ -1,5 +1,6 @@
 // components/CookieBanner.js
-import { useState, useEffect } from "react";
+'use client';
+import React, { useState, useEffect } from "react";
 import '../styles/CookieBanner.css';
 
 const CookieBanner = () => {

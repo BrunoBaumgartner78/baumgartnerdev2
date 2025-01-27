@@ -1,8 +1,9 @@
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import Head from "next/head"; // Für Head-Tags
 
+
 export const metadata = {
-  title: "Baumgartner Development",
+  title: "Baumgartner Webdesing Development Bern",
   description: "Webentwicklung und digitale Lösungen von Baumgartner Development.",
   keywords: "Webentwicklung, digitale Lösungen, Baumgartner, Webdesign, JavaScript, Next.js, React.js, Bern, Region",
   author: "Bruno Baumgartner",
@@ -12,7 +13,7 @@ export const metadata = {
     url: "https://www.myiq.ch",
     images: [
       {
-        url: "https://www.myiq.ch/assets/pen.png",
+        url: "https://www.myiq.ch/public/assets/pen.png",
         width: 800,
         height: 600,
         alt: "Baumgartner Development Titelbild",
@@ -72,6 +73,7 @@ export default function RootLayout({ children }) {
 
       </Head>
       <body>
+      
         <GoogleAnalytics />
         {children}
       </body>

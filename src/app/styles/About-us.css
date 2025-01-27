@@ -1,0 +1,15 @@
+.about-us-section {
+  width: 80%; /* Standardbreite */
+  margin: 0 auto; /* Zentriert die Sektion */
+  border-radius: 25px; /* Abgerundete Ecken */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Schatten für die Sektion */
+  background-color: #fff; /* Hintergrundfarbe */
+  transition: width 0.3s ease-in-out; /* Sanfte Übergänge für die Breite */
+}
+
+@media screen and (max-width: 600px) {
+  .about-us-section {
+    width: 98%; /* Breite auf 95% setzen, wenn die Bildschirmgröße unter 600px liegt */
+   margin: 0 auto;
+  }
+}

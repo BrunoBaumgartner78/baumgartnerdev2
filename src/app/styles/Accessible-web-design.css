@@ -1,0 +1,63 @@
+.accessible-web-design-section {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    background-color: #f9f9f9;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .accessible-web-design-section h1, 
+  .accessible-web-design-section h2, 
+  .accessible-web-design-section h3 {
+    color: #333;
+  }
+  
+  .accessible-web-design-section p, 
+  .accessible-web-design-section ul {
+    color: #555;
+  }
+  
+  .accessible-web-design-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .gradient-line {
+    height: 4px;
+    background: linear-gradient(to right, #4caf50, #81c784);
+    margin: 20px 0;
+  }
+  
+  .flex, .flex2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .accessible-web-design-text {
+    flex: 1;
+  }
+  
+  .accessible-web-design-image {
+    flex: 1;
+    background: url('/path-to-image.jpg') no-repeat center/cover;
+    height: 300px;
+    border-radius: 25px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .accessible-web-design-section {
+      width: 95%;
+    }
+  
+    .flex, .flex2 {
+      flex-direction: column;
+    }
+  
+    .accessible-web-design-image {
+      height: 200px;
+    }
+  }
+  

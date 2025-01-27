@@ -4,6 +4,7 @@
   overflow: hidden;
   position: relative;
   height: 300px; /* Höhe des Karussells */
+  border-radius: 25px 25px;
 }
 
 /* Track, der die Items enthält */
