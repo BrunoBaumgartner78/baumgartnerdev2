@@ -10,32 +10,32 @@ const Portfolio = () => {
   const portfolioWorks = [
     {
       title: 'Wireframes & Prototypes',
-      image: '/images/wireframes-prototypes.jpg',
+      image: '/assets/apple.webP',
       description: 'Erstellung von interaktiven Wireframes und Prototypen zur Visualisierung von Designideen.'
     },
     {
       title: 'Responsive Design',
-      image: '/images/responsive-design.jpg',
+      image: '/assets/computer.webP',
       description: 'Entwicklung von Webseiten, die sich nahtlos an verschiedene Bildschirmgrößen anpassen.'
     },
     {
       title: 'UX Strategy',
-      image: '/images/ux-strategy.jpg',
+      image: '/assets/mug.webP',
       description: 'Strategien zur Verbesserung der Nutzererfahrung und Erreichung von Geschäftsziele.'
     },
     {
       title: 'Web Development',
-      image: '/images/web-development.jpg',
+      image: '/assets/computerDesk.webP',
       description: 'Maßgeschneiderte Webanwendungen mit modernster Technologie und bewährten Methoden.'
     },
     {
       title: 'Usability Testing',
-      image: '/images/usability-testing.jpg',
+      image: '/assets/pen.webP',
       description: 'Testen und Optimieren von Webseiten und Apps für maximale Benutzerfreundlichkeit.'
     },
     {
       title: 'Design Trends',
-      image: '/images/design-trends.jpg',
+      image: '/assets/laptop.webP',
       description: 'Bleiben Sie mit den neuesten Design-Trends für Ihre Projekte auf dem Laufenden.'
     },
   ];

@@ -1,5 +1,5 @@
 
-
+/*
 // next.config.js
 module.exports = {
   async redirects() {
@@ -29,3 +29,4 @@ module.exports = {
     ];
   },
 };
+*/
