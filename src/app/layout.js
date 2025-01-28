@@ -3,7 +3,7 @@ import Head from "next/head"; // Für Head-Tags
 
 
 export const metadata = {
-  title: "Baumgartner Webdesing Development Bern",
+  title: "Baumgartner Webdesign Development Bern",
   description: "Webentwicklung und digitale Lösungen von Baumgartner Development.",
   keywords: "Webentwicklung, digitale Lösungen, Baumgartner, Webdesign, JavaScript, Next.js, React.js, Bern, Region",
   author: "Bruno Baumgartner",
