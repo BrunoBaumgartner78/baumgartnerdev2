@@ -13,12 +13,21 @@ p{
   padding: 2em 2em;
 }
 
+ol{
+  list-style: none;
+}
+
 li{
   margin: 20px;
 }
 div{
   position: relative;
   display: block;
+}
+
+img{
+  width: 150px;
+  height: auto;
 }
 .flex {
   display: flex;

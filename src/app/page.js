@@ -43,6 +43,7 @@ export default function Home() {
   />
 
 </div>
+<LazySection/>
 <div className="gradient-line"></div> {/* Querlinie mit Gradient */}
 <div className="flex2">
   <div className="about2"></div>
@@ -188,7 +189,7 @@ Baumgartner Development – Ihr Spezialist für Webdesign in Bern und Umgebung.<
 
       </section>
       
-      <LazySection/>
+     
       <section id="technologies" style={{ height: 'fit-content' }}>
       <PhotoCarousel/>
       <h1>Technologien für modernes Webdesign – Ihr Partner in der Region Bern</h1>
@@ -198,9 +199,9 @@ Baumgartner Development – Ihr Spezialist für Webdesign in Bern und Umgebung.<
       <p>
 Um Ihnen als Unternehmen in der Region Bern eine moderne, benutzerfreundliche und effektive Website zu bieten, setzen wir auf die neuesten Webdesign-Technologien. Unsere Expertise in Webentwicklung und Responsive Design garantiert Ihnen eine Website, die nicht nur gut aussieht, sondern auch reibungslos funktioniert und Ihre Zielgruppe anspricht.
 </p>
-<h3>
+<h2>
 Unsere Technologien im Webdesign
-</h3>
+</h2>
 
 <h3>
 1. HTML5 & CSS3
@@ -314,30 +315,30 @@ Baumgartner Development – Webdesign in Bern mit modernsten Technologien.</p>
   {/* Menülinks aus dem Hauptmenu */}
   <div className="menu-links">
       <ul className='flexUl'>
-      <ul className='liste'>
+      <ol className='liste'>
       <li><Link href="/">Home</Link></li>
       <li><Link href="/ux-strategy">UX-Strategie</Link></li>
       <li><Link href="/usability-testing">Usability-Testing</Link></li>
       <li><Link href="/design-thinking">Design Thinking</Link></li>
-      </ul>
-      <ul className='liste'>
+      </ol>
+      <ol className='liste'>
       <li><Link href="/wireframes-prototypes">Wireframes & Prototypen</Link></li>
       <li><Link href="/responsive-design">Responsive Design</Link></li>
       <li><Link href="/mobile-first">Mobile-First Ansätze</Link></li>
       <li><Link href="/accessible-web-design">Barrierefreies Webdesign</Link></li>
-      </ul>
-      <ul className='liste'>
+      </ol>
+      <ol className='liste'>
       <li><Link href="/design-trends">Design-Trends</Link></li>
       <li><Link href="/coding">Coding</Link></li>
       <li><Link href="/web-development">Webentwicklung</Link></li>
       <li><Link href="/portfolio">Portfolio</Link></li>
-      </ul>
-      <ul className='liste'>
+      </ol>
+      <ol className='liste'>
       <li><Link href="/blog">Blog</Link></li>
       <li><Link href="/about-us">About us</Link></li>
       <li><Link href="/career">Karriere</Link></li>
       <li><Link href="/kontakt">Kontakt</Link></li>
-      </ul>
+      </ol>
     </ul>
   </div>
 </section>
