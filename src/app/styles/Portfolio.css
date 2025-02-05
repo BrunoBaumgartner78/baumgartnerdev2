@@ -60,18 +60,7 @@
     line-height: 1.5;
   }
   
-  .portfolio-item-content a {
-    display: inline-block;
-    margin-top: 0.5rem;
-    font-size: 0.9rem;
-    color: #007BFF;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
   
-  .portfolio-item-content a:hover {
-    color: #0056b3;
-  }
 
   
   /* Responsiveness */

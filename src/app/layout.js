@@ -70,7 +70,6 @@ export default function RootLayout({ children }) {
 
         {/*Canonial Tag*/}
         <link rel="canonical" href="https://www.myiq.ch" />
-
       </Head>
       <body>
       

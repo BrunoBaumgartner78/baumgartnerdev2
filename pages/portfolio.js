@@ -5,6 +5,7 @@ import ScrollToTopButton from '@/app/components/Arow';
 import ThemeToggle from '@/app/components/ThemeToggle';
 import '../src/app/globals.css';
 import '../src/app/styles/Portfolio.css'; // CSS-Datei für das Portfolio-Styling
+import '../src/app/styles/Nav.css';
 
 const Portfolio = () => {
   const portfolioWorks = [

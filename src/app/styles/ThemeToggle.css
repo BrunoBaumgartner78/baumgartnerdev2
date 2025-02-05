@@ -14,6 +14,8 @@ body {
   
   h1,h2,h3,h4,h5,ul,li.dark-mode{
     color: #6f6f6f;
+    margin: 10px auto;
+    padding: 0;
   }
   
   /* Sections Styling */
@@ -47,6 +49,7 @@ body {
   transition: all 0.3s ease;
   z-index: 12;
   margin: 5px;
+  top: 60px;
 }
 
 /* Dark Mode Effekt */
@@ -76,4 +79,12 @@ body {
 
 .moon-icon {
   color: #03a9f4;
+}
+
+@media screen and (max-width: 600px) {
+
+  .toggle-button{
+    top: 10px;
+  }
+  
 }
