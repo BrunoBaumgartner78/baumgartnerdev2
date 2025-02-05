@@ -3,8 +3,14 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/:path*',
-        destination: 'https://www.myiq.ch/:path*',
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "myiq.ch",
+          },
+        ],
+        destination: "https://www.myiq.ch/:path*",
         permanent: true,
       },
     ];
