@@ -1,4 +1,9 @@
+# *
 User-agent: *
-Disallow:
+Allow: /
 
+# Host
+Host: https://www.myiq.ch
+
+# Sitemaps
 Sitemap: https://www.myiq.ch/sitemap.xml
