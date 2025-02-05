@@ -273,4 +273,8 @@
     display: block;
     color: #feb47b;
   }
+
+  .desktop-menu{
+    display: none;
+  }
 }
