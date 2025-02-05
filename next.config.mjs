@@ -1,8 +1,7 @@
-
-export default {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   async redirects() {
     return [
- 
       {
         source: '/:path*',
         has: [
@@ -14,18 +13,8 @@ export default {
         destination: 'https://www.myiq.ch/:path*',
         permanent: true,
       },
-      {
-        source: '/:path*',
-        has: [
-          {
-            type: 'host',
-            value: 'www.myiq.ch',
-          },
-        ],
-        destination: 'https://www.myiq.ch/:path*',
-        permanent: true,
-      },
     ];
   },
 };
 
+export default nextConfig;
