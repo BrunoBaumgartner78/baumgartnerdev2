@@ -13,7 +13,7 @@ export const metadata = {
     url: "https://www.myiq.ch",
     images: [
       {
-        url: "https://www.myiq.ch/public/assets/pen.png",
+        url: "https://www.myiq.ch/pen.png",
         width: 800,
         height: 600,
         alt: "Baumgartner Development Titelbild",
@@ -25,7 +25,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Baumgartner Development",
     description: "Webentwicklung und digitale Lösungen von Baumgartner Development.",
-    images: ["https://www.myiq.ch/assets/pen.png"],
+    images: ["https://www.myiq.ch/pen.png"],
   },
   icons: {
     icon: "/favicon.ico",
