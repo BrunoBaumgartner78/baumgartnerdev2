@@ -284,13 +284,13 @@ Baumgartner Development – Webdesign in Bern mit modernsten Technologien.</p>
       
       
  
-      <section id="contactHome" style={{ height: 'fit-content' }}>
+      <section  style={{ height: 'fit-content' }}>
       <PhotoCarousel/>
   <h1>Contact</h1>
   <p>Kontaktiere uns hier:</p>
   <Logo /> 
 
-  <div className="links">
+  <div id="contactHome" className="links">
     {/* WhatsApp Link */}
     <a href="https://wa.me/410794630666" target="_blank" style={{ marginRight: '20px' }}>
       <FaWhatsapp style={{ fontSize: '2rem', color: '#25D366', cursor: 'pointer' }} />
